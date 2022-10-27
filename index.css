@@ -1,0 +1,275 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 1190px;
+  margin: 0 auto;
+}
+.box-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-bar {
+  margin-left: 70px;
+}
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+/* main---------------- */
+main {
+  margin-top: 100px;
+}
+.hero {
+  background-image: url(./image/8c90bfdd-937b-437f-bc20-b62b5802da66.png);
+  background-size: cover;
+  height: 600px;
+  border-radius: 10px;
+}
+.head {
+  padding: 100px 0 20px 130px;
+}
+.head-topic {
+  width: 493px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #fefcf7;
+}
+.head-commend {
+  margin-top: 32px;
+  width: 445px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+.head-btn {
+  margin-top: 56px;
+  padding: 15px 31px 16px 31px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+/* pradukta----------- */
+.products-part {
+  margin-top: 120px;
+}
+.containerr {
+  margin: 0 auto;
+  width: 1111px;
+}
+.cards {
+  display: flex;
+  gap: 30px;
+}
+.card-theme {
+  margin-top: 76px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+}
+.card-commend {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #333d4b;
+  width: 255px;
+}
+.chooss {
+  margin-left: 100px;
+  margin-top: 200px;
+  background-color: #2c343e;
+  padding-top: 100px;
+  width: 1280px;
+  height: 577px;
+}
+.choos {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.chooss-theme {
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  color: #fefcf7;
+}
+.chooss-commend {
+  margin-top: 32px;
+  width: 540px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+.cards-part {
+  display: flex;
+  gap: 30px;
+}
+.cardss {
+  margin-top: -225px;
+  padding: 72px 48px 48px 48px;
+  width: 350px;
+  height: 382px;
+  background-color: #0e8784;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.card-head {
+  margin-top: 56px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  text-align: center;
+  color: #fefcf7;
+}
+.card-par {
+  margin-top: 24px;
+  width: 255px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #fefcf7;
+}
+.article {
+  margin-top: 200px;
+}
+.contaainer {
+  margin: 0 auto;
+  width: 1045px;
+}
+.article-title {
+  margin-bottom: 80px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888f;
+}
+.group {
+  margin-bottom: 67px;
+}
+.services {
+  display: flex;
+  gap: 95px;
+}
+.hhd {
+  width: 200px;
+}
+.article-heading {
+  width: 255px;
+  margin-top: 38px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333;
+}
+.article-sub {
+  width: 285px;
+  margin-top: 43px;
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333d4b;
+}
+.article-btn {
+  margin-top: 64px;
+  padding: 15px 31px 16px 31px;
+  font-family: "Fraunces 9pt";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: #fefcf7;
+  background-color: #0e8784;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+}
+.footer {
+  margin-top: 200px;
+  background-color: #2c343e;
+}
+.footer-part {
+  display: flex;
+  align-items: center;
+}
+.nav {
+  margin-left: 102px;
+}
+.header-list {
+  display: flex;
+  gap: 33px;
+}
+.list-items {
+  font-family: "Barlow";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.923077px;
+  text-transform: uppercase;
+  color: #83888f;
+  cursor: pointer;
+}
+li {
+  list-style-type: none;
+}
+.div-btn {
+  margin-left: 368px;
+  display: flex;
+  gap: 24px;
+}
+.footer-btn {
+  background: #2c343e;
+  border: none;
+  cursor: pointer;
+}
