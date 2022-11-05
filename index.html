@@ -8,18 +8,34 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="box-right">
-          <img src="./image/Group 5.svg" alt="logo" width="240" height="60" />
-          <div class="nav-bar">
-            <ul class="nav-list">
-              <li class="list-iteams">HOME</li>
-              <li class="list-iteams">ABOUT US</li>
-              <li class="list-iteams">CREATE YOUR PLAN</li>
-            </ul>
-          </div>
-        </div>
+    <h1 class="visually-hidden">Cooffe-roaster</h1>
+    <header class="header container">
+      <a href="#!" class="header__logo">
+        <img
+          width="236"
+          height="26"
+          src="./image/Group 5.svg"
+          alt="The logo of coffee-website"
+        />
+      </a>
+      <nav class="header__nav header__nav--active">
+        <a href="#!" class="header__close">
+          <img src="./image/menu-close.png" alt="menu close" width="15px" />
+        </a>
+        <ul class="header__list">
+          <li class="header__item">
+            <a class="header__link" href="#!">HOME</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="./about.html">ABOUT US</a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#!">Create your plan</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__menu">
+        <img src="./image/menu.png" alt="menu bar" width="15px" />
       </div>
     </header>
     <!-- main------------------ -->
@@ -41,10 +57,9 @@
     <!-- pradukta------------------- -->
     <div class="products-part">
       <div class="containerr">
-        <img src="./image/products.png" alt="products" />
-
         <div class="cards">
           <div class="product">
+            <img src="./image/expresso.png" alt="gran Espresso" />
             <h3 class="card-theme">Gran Espresso</h3>
             <p class="card-commend">
               Light and flavorful blend with cocoa and black pepper for an
@@ -53,6 +68,7 @@
           </div>
 
           <div class="product">
+            <img src="./image/kopi2-1.png" alt="kopi" />
             <h3 class="card-theme">Planalto</h3>
             <p class="card-commend">
               Brazilian dark roast with rich and velvety body, and hints of
@@ -61,6 +77,7 @@
           </div>
 
           <div class="product">
+            <img src="./image/kopi3.png" alt="piccolo cof" />
             <h3 class="card-theme">Piccollo</h3>
             <p class="card-commend">
               Mild and smooth blend featuring notes of toasted almond and dried
@@ -70,6 +87,7 @@
           </div>
 
           <div class="product">
+            <img src="./image/kopi4.png" alt="danache cof" />
             <h3 class="card-theme">Danche</h3>
             <p class="card-commend">
               Ethiopian hand-harvested blend densely packed with vibrant fruit
@@ -102,7 +120,8 @@
             src="./image/coffee-bean.svg"
             alt="coffee"
             width="72"
-            height="72" />
+            height="72"
+          />
           <h4 class="card-head">Best quality</h4>
           <p class="card-par">
             Discover an endless variety of the world’s best artisan coffee from
@@ -115,7 +134,8 @@
             src="./image/Combined Shape.svg"
             alt="present"
             width="72"
-            height="72" />
+            height="72"
+          />
           <h4 class="card-head">Exclusive benefits</h4>
           <p class="card-par">
             Special offers and swag when you subscribe, including 30% off your
@@ -128,7 +148,8 @@
             src="./image/Combined Shape (1).svg"
             alt="truck"
             width="72"
-            height="50" />
+            height="50"
+          />
           <h4 class="card-head cardd">Free shipping</h4>
           <p class="card-par">
             We cover the cost and coffee is delivered fast. Peak freshness:
@@ -147,7 +168,8 @@
             src="./image/Group 30.png"
             alt="line"
             width="791"
-            height="31" />
+            height="31"
+          />
         </div>
 
         <!--services-------------------------->
@@ -168,7 +190,8 @@
               src="./image/02.svg"
               alt="2"
               width="101"
-              height="72" />
+              height="72"
+            />
             <h3 class="article-heading">Choose the frequency</h3>
             <p class="article-sub">
               Customize your order frequency, quantity, even your roast style
@@ -183,7 +206,8 @@
               src="./image/03.svg"
               alt="3"
               width="98"
-              height="72" />
+              height="72"
+            />
             <h3 class="article-heading">Receive and enjoy!</h3>
             <p class="article-sub">
               We ship your package within 48 hours, freshly roasted. Sit back
@@ -203,11 +227,12 @@
             src="./image/Group 5logo-footer.svg"
             alt="logo"
             width="236"
-            height="26" />
+            height="26"
+          />
           <nav class="nav">
             <ul class="header-list">
-              <li class="list-items">home</li>
-              <li class="list-items">about us</li>
+              <li class="list-items"><a href="#"> home </a></li>
+              <li class="list-items"><a href="about.html"> about us </a></li>
               <li class="list-items">create your plan</li>
             </ul>
           </nav>
@@ -248,5 +273,6 @@
         </div>
       </div>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
